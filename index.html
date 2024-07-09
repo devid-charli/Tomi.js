@@ -9,28 +9,23 @@
 
 <script>
 
-var par1="sithy  lami";
-var par2=Array.from(par1);
+var marks=[30,35,40,45,50,55,70,80];
+
+function check (value){
+return value>30;
 
 
-document.write(par2[8])
-
-
-
-
-
-
+}
+document.write(marks.filter(check));
 
 
 
+var sithy=[44,5,55,8,66,47];
+function check(value){
 
-
-
-
-
-
-
-
+    return value>8;
+}
+document.write(sithy.filter(check))
 
 
 
