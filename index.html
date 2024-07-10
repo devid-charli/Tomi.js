@@ -9,23 +9,22 @@
 
 <script>
 
-var marks=[30,35,40,45,50,55,70,80];
+var array=[11,20,30,40,42,50,60,70,80,90,100];
 
-function check (value){
-return value>30;
+var result=array.find(function(value){
+
+return value >60;
+
+
 
 
 }
-document.write(marks.filter(check));
 
 
 
-var sithy=[44,5,55,8,66,47];
-function check(value){
+)
 
-    return value>8;
-}
-document.write(sithy.filter(check))
+document.write(result)
 
 
 
